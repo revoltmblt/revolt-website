@@ -889,7 +889,12 @@
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		background-image: url('images/bg2_small.png');
+	 	background-size: cover;
+		/*background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-position: center center; */
+		/*background: #ffffff;*/
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
